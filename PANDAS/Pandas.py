@@ -1,5 +1,5 @@
 import pandas as pd
-"""
+
 series = pd.Series([1, 2, 3, 4, 5])
 s = pd.Series([90, 85, 88], index=["Math", "Physics", "CS"])
 print(s)
@@ -16,7 +16,7 @@ df.head()
 print(df.tail())
 print(df.columns)
 print(df)
-"""
+
 titanic_data = pd.read_csv(r"D:\MACHINE LEARNING\practicals\DATASETS\Titanic-Dataset.csv")
 """
 print("info")
